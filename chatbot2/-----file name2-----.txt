@@ -1,0 +1,121 @@
+7.{anaconda파일}
+7주차 형태소 분석
+-kkma.py(Kkma 예시)
+-Komoran.py(Komoran 예시)
+-Okt.py(Okt 예시)
+-custom_word.py(고유명사추가하는 코드)
+-user_dic.tsv(고유명사 데이터)
+
+8.{chatbot2파일}
+7주차 단어임베딩방식
+-oneandhot.py (원-핫인코딩 예시)
+-단어임베딩 영화리뷰(Word2vec 예시)
+	-word2vec.py(vs코드-준비)
+	-ratings.txt(데이터모음)
+	-nvmc.model(코드실행시 생성)
+	-word2vec_model.py(vs코드-실행)
+
+9.{chatbot2파일}
+7주차 유사도
+-2-gram.py (n-gram 예시)
+-cosine.py (cosine 예시)
+
+10.{chatbot2파일}
+8주차 딥러닝
+-mnist.py(그래프 코드)
+-mnist.model.h5(그래프 코드실행시 생성)
+-mnist-test.py(주어진 이미지)
+
+11.{chatbot2파일}
+8주차 의도 분류 모델
+-ChatbotData.csv(데이터모음)
+-cnn-classfication.py(학습용코드)
+-cnn_model.h5(학습용 코드실행시 생성)
+-cnn-model.py(만들어진 모델 바탕의 실전용코드)
+
+12.{chatbot2파일}
+9주차 MySQL 개념
+db>테이블>데이터
+-db-conn.py(db연결코드)
+-make-table.py(테이블코드)
+-insert-data.py(데이터 생성[insert] 예시)
+-update-data.py(데이터 수정[update] 예시)
+-delete-data.py(데이터 삭제[delete] 예시)
+-select-data.py(데이터 선택[select] 예시)
+
+13.{chatbot2 안에 chatbot파일}
+9주차 MySQL 챗봇 학습툴
+{config}
+	-DatabaseConfig.py(db연결코드)
+{train_tools안에 pna}
+	-create_train_data_table.py(테이블코드)
+	-train_data.xlsx(데이터모음)
+	-data_load.py(vs코드)
+{util}
+	-Preprocess.py(전처리코드)
+{test}
+	-Preprocess_test.py(동작 테스트 코드)
+
+14.
+10주차 MySQL 단어사전구축
+{train_tools안에 dict}
+	-corqus.txt(데이터모음)
+	-create_dict.py(vs코드)
+{test}
+	-chatbot_dict_test.py(동작 테스트 코드)
+{util}
+	-Preprocess.py(수정된 전처리코드)
+
+15.
+10주차 MySQL 의도 분류 모델
+{config}
+	-GlobalParams.py(파라미터 정보 관리코드)
+{models안에 intent}
+	-total_train_data.csv(데이터모음)
+	-train_model.py(학습용코드)
+	-intent_model.h5(학습용 코드실행시 생성)
+	-IntentModel.py(엔진 기능 코드)
+{test}
+	-model_intent_test.py(동작 테스트 코드)
+
+16.
+11주차 MySQL 개체명 인식 모델 학습
+-버전충돌방지용 다운그레이드 먼저!
+{models안에 ner}
+	-train_model.py(학습용코드)
+	-ner_model.h5(학습용 코드실행시 생성)
+	-NerModel.py(엔진 기능 코드)
+{test}
+	-model_ner_test.py(동작 테스트 코드)
+
+17.
+11주차 MySQL 음식주문 챗봇
+{util}
+	-Database.py(db연결코드)
+	-findAnswer.py(vs코드)
+{test}
+	-chatbot_test.py(동작 테스트 코드)
+{util}
+	-BotServer.py(소켓 서버)
+{chatbot}
+	-Bot.py(메인코드)
+{test}
+	-chatbot_client_test.py(동작 테스트 코드)
+
+18.
+12주차 FLASK
+-flask 설치
+{ex_flask}
+	-app.py(웹페이지 구현+동적변수처리)
+
+19.
+12주차 REST API
+-Talend API Tester다운로드
+{main_flask}
+	-app.py(웹페이지 구현+API서버구현)
+.
+12주차 네이버 톡톡서버로 음식주문 챗봇 연동
+-Bot.py를 먼저 가동시켜놔야함(DB연동)
+{chatbot_api}
+	-app.py(수신)
+	-NaverEvent.py(송신)

@@ -1,0 +1,47 @@
+{
+	"ok": true,
+	"result": [
+		{
+			"update_id": 241963233,
+			"message": {
+				"message_id": 39,
+				"from": {
+					"id": 6120864080,
+					"is_bot": false,
+					"first_name": "J",
+					"last_name": "B",
+					"language_code": "ko"
+				},
+				"chat": {
+					"id": 6120864080,
+					"first_name": "J",
+					"last_name": "B",
+					"type": "private"
+				},
+				"date": 1683424712,
+				"text": "안녕"
+			}
+		},
+		{
+			"update_id": 241963234,
+			"message": {
+				"message_id": 40,
+				"from": {
+					"id": 6120864080,
+					"is_bot": false,
+					"first_name": "J",
+					"last_name": "B",
+					"language_code": "ko"
+				},
+				"chat": {
+					"id": 6120864080,
+					"first_name": "J",
+					"last_name": "B",
+					"type": "private"
+				},
+				"date": 1683424859,
+				"text": "반가워"
+			}
+		}
+	]
+}

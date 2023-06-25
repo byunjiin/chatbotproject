@@ -1,0 +1,41 @@
+1.{chatbot1파일}
+3주차때 만든 웰니스 대화 챗봇
+-chatbot.py (vscode)
+-dataset.ipynb (주피터노트북)
+-W_1.csv (데이터모음)
+
+2.{chatbot1파일}
+4주차때 만든 병원 챗봇
+-hospital.py (vscode)
+-hospital.ipynb (주피터노트북)
+-hospital-dataset.csv (데이터모음)
+
+3.{chatbot1파일}
+4주차때 만든 트위터 챗봇
+-twiter.py (vscode)
+-twiter.ipynb (주피터노트북)
+-twiter-dataset.csv (데이터모음)
+
+4.{chatbot1파일}
+5주차때 만든 도서퀴즈 챗봇
+-quiz-chatbot.py (vscode)
+-json-parsing.ipynb (주피터노트북)
+-tqa_sample.json (원본데이터모음)
+-tqa_dataset.json (가공데이터모음)
+
+5.{chatbot1파일}
+6주차때 만든 영화제목 챗봇
+-S-chatbot.py (vscode)
+-json-S.ipynb (주피터노트북)
+-synopses_sample.json (원본데이터모음)
+-synopses_dataset.json (가공데이터모음)
+
+6.{chatbot1파일}
+6주차때 텔레그램 연결하기
+-telegram.py (유저의 url 연결하기)
+-get-json.py (joson데이터를 추출하기 위한코드)
+-chat.json (<joson데이터>get에서 만든 답변 받는 파일-유저가 입력한것을 볼 수 있음)
+-chatbot-telegram.py (웰니스챗봇하고 연결)
+
+
+-->7주차부턴 chatbot2
