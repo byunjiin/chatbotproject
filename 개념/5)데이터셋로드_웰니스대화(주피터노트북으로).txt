@@ -1,9 +1,0 @@
-1.복습
-3주차 시간에 만들었던 웰니스 대화를 주피터노트북으로 구성
-http://localhost:8888/notebooks/dataset.ipynb
-단, streamlit은 할 수 없음 -> 그래서 vscode를 사용하여 .py 파일로 만드는 편이 좋음
-
-
-2.json 데이터 전처리
-(이전까진 csv파일만 했음)
-	->import json
